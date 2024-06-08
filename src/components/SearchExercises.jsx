@@ -23,6 +23,7 @@ function SearchExercises() {
       p="20px"
       id="exercises"
     >
+   
       <Typography
         fontWeight={700}
         sx={{
