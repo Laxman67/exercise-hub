@@ -3,9 +3,9 @@
 export const excerciseOptions = {
   method: 'GET',
   headers: {
-    'x-rapidapi-key': '931ac641e2mshd764588e1a7fe7dp1930f4jsnec03a8555240',
-    'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
-  }
+    'x-rapidapi-key': '0993e0b9bdmsh3fd02f39fc48079p1a5086jsnde3f90a39523',
+    'x-rapidapi-host': 'exercisedb.p.rapidapi.com',
+  },
 };
 export const fetchData = async (url, options) => {
   const response = await fetch(url, options);
