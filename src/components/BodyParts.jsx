@@ -17,12 +17,21 @@ function BodyParts({ item, setBodyPart, bodyPart }) {
         height: '280px',
         gap: '47px',
       }}
+      onClick={() => {
+        setBodyPart(item);
+        window.scrollTo({ top: '1800', left: '100', behavior: 'smooth' });
+      }}
     >
-      <img
-        src={Icon}
-        alt="dumbbell"
-        styles={{ with: '40px', height: '40px' }}
-      />
+      <img src={Icon} alt="dumbbell" style={{ with: '40px', height: '40px' }} />
+
+      <Typography
+        fontsize="24px"
+        fontWeight="bold"
+        color="#3a1212"
+        textTransform="capitalize"
+      >
+        {item}
+      </Typography>
     </Stack>
   );
 }
